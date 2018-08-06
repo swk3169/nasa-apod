@@ -23,8 +23,8 @@
 ## Prerequisites
 Sass를 사용하기 위하여 프로젝트 설정을 커스터마이징
 
-$ cd create-react-app
-$ yarn eject
+`$ cd create-react-app`
+`$ yarn eject`
 
 ## Scripts
 
