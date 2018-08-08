@@ -72,7 +72,7 @@ class App extends Component {
 
   render() {
     const { url, mediaType, loading } = this.state;
-    const { handlePrev, handleNext } = this.state;
+    const { handlePrev, handleNext } = this;
     return (
       <ViewerTemplate
         spaceNavigator={<SpaceNavigator onPrev={handlePrev} onNext={handleNext}/>}
